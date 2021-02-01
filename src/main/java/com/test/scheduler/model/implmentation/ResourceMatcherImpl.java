@@ -21,7 +21,10 @@ public class ResourceMatcherImpl {
 		this.totalResource = numberOfResource;
 		this.reqourceQ = new PriorityQueue<JobNode>(numberOfResource, new JobNodeTimeComparator());
 		this.graph = graph;
-		this.graph.setResourceMacther(this);
+		if(this.graph != null) {
+			this.graph.setResourceMacther(this);
+		}
+
 	}
 
 	public List<JobNode> addNodesToQ(List<JobNode> sortedNodes) {
