@@ -7,6 +7,6 @@ The main component are
 
 Test coverage
 All the business logics are covered by the test cases. Please refer the following classes, thes can be used in place of console 
-  TestConsoleTaskInputParser
-  TestJobGraph
-  TestResourceMatcherImpl
+  1) TestConsoleTaskInputParser
+  2) TestJobGraph
+  3) TestResourceMatcherImpl
